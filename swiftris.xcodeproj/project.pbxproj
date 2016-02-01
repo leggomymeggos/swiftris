@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		AE1CEA491C5FD118009B23A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1CEA481C5FD118009B23A9 /* AppDelegate.swift */; };
-		AE1CEA4B1C5FD118009B23A9 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AE1CEA4A1C5FD118009B23A9 /* GameScene.sks */; };
 		AE1CEA4D1C5FD118009B23A9 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1CEA4C1C5FD118009B23A9 /* GameScene.swift */; };
 		AE1CEA4F1C5FD118009B23A9 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1CEA4E1C5FD118009B23A9 /* GameViewController.swift */; };
 		AE1CEA521C5FD118009B23A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE1CEA501C5FD118009B23A9 /* Main.storyboard */; };
 		AE1CEA541C5FD118009B23A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE1CEA531C5FD118009B23A9 /* Images.xcassets */; };
 		AE1CEA571C5FD118009B23A9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE1CEA551C5FD118009B23A9 /* LaunchScreen.xib */; };
 		AE1CEA631C5FD118009B23A9 /* swiftrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1CEA621C5FD118009B23A9 /* swiftrisTests.swift */; };
+		AE1CEA731C5FD262009B23A9 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = AE1CEA721C5FD262009B23A9 /* Sprites.atlas */; };
+		AE1CEA751C5FD274009B23A9 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = AE1CEA741C5FD274009B23A9 /* Images */; };
+		AE1CEA791C5FD2CA009B23A9 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = AE1CEA781C5FD2CA009B23A9 /* Sounds */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +33,6 @@
 		AE1CEA431C5FD118009B23A9 /* swiftris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE1CEA471C5FD118009B23A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE1CEA481C5FD118009B23A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE1CEA4A1C5FD118009B23A9 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		AE1CEA4C1C5FD118009B23A9 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		AE1CEA4E1C5FD118009B23A9 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		AE1CEA511C5FD118009B23A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +41,9 @@
 		AE1CEA5C1C5FD118009B23A9 /* swiftrisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftrisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE1CEA611C5FD118009B23A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE1CEA621C5FD118009B23A9 /* swiftrisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftrisTests.swift; sourceTree = "<group>"; };
+		AE1CEA721C5FD262009B23A9 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
+		AE1CEA741C5FD274009B23A9 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Images; path = Blocs/Images; sourceTree = "<group>"; };
+		AE1CEA781C5FD2CA009B23A9 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,12 +86,13 @@
 			isa = PBXGroup;
 			children = (
 				AE1CEA481C5FD118009B23A9 /* AppDelegate.swift */,
-				AE1CEA4A1C5FD118009B23A9 /* GameScene.sks */,
 				AE1CEA4C1C5FD118009B23A9 /* GameScene.swift */,
 				AE1CEA4E1C5FD118009B23A9 /* GameViewController.swift */,
 				AE1CEA501C5FD118009B23A9 /* Main.storyboard */,
 				AE1CEA531C5FD118009B23A9 /* Images.xcassets */,
 				AE1CEA551C5FD118009B23A9 /* LaunchScreen.xib */,
+				AE1CEA781C5FD2CA009B23A9 /* Sounds */,
+				AE1CEA721C5FD262009B23A9 /* Sprites.atlas */,
 				AE1CEA461C5FD118009B23A9 /* Supporting Files */,
 			);
 			path = swiftris;
@@ -96,6 +101,7 @@
 		AE1CEA461C5FD118009B23A9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AE1CEA741C5FD274009B23A9 /* Images */,
 				AE1CEA471C5FD118009B23A9 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -198,9 +204,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE1CEA791C5FD2CA009B23A9 /* Sounds in Resources */,
+				AE1CEA731C5FD262009B23A9 /* Sprites.atlas in Resources */,
+				AE1CEA751C5FD274009B23A9 /* Images in Resources */,
 				AE1CEA571C5FD118009B23A9 /* LaunchScreen.xib in Resources */,
 				AE1CEA541C5FD118009B23A9 /* Images.xcassets in Resources */,
-				AE1CEA4B1C5FD118009B23A9 /* GameScene.sks in Resources */,
 				AE1CEA521C5FD118009B23A9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
